@@ -26,7 +26,7 @@ class SignUp extends Component {
     return (
       <form onSubmit={this.handleSubmit.bind(this)}>
         <FormGroup>
-          <ControlLabel>Username</ControlLabel>
+          <ControlLabel>Username Test</ControlLabel>
           <FormControl
             type="email"
             name="username"
@@ -39,7 +39,7 @@ class SignUp extends Component {
         </FormGroup>
 
         <FormGroup>
-          <ControlLabel>Password</ControlLabel>
+          <ControlLabel>Password Test</ControlLabel>
           <FormControl
             type="password"
             name="password"
@@ -52,7 +52,7 @@ class SignUp extends Component {
         </FormGroup>
 
         <FormGroup>
-          <ControlLabel>Confirm Password</ControlLabel>
+          <ControlLabel>Confirm Password Test</ControlLabel>
           <FormControl
             type="password"
             name="confirmPassword"
